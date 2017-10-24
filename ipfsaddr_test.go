@@ -1,11 +1,11 @@
 package ipfsaddr
 
 import (
+	"strings"
 	"testing"
 
-	path "github.com/ipfs/go-ipfs/path"
-	ma "gx/ipfs/QmXY77cVe7rVRQXZZQRioukUM7aRW3BTcAgJe12MCtb3Ji/go-multiaddr"
-	peer "gx/ipfs/QmXYjuNuxVzXKJCfWasQk1RqkhVLDM9jtUKhqc2WPQmFSB/go-libp2p-peer"
+	peer "github.com/libp2p/go-libp2p-peer"
+	ma "github.com/multiformats/go-multiaddr"
 )
 
 var good = []string{
@@ -87,7 +87,7 @@ func TestIDMatches(t *testing.T) {
 			continue
 		}
 
-		sp := path.SplitList(g)
+		sp := strings.Split(g, "/")
 		sid := sp[len(sp)-1]
 		id, err := peer.IDB58Decode(sid)
 		if err != nil {
