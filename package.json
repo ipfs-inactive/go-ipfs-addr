@@ -26,9 +26,9 @@
     },
     {
       "author": "vyzo",
-      "hash": "QmR5sXZi68rm9m2E3KiXj6hE5m3GeLaDjbLPUeV6W3MLR8",
+      "hash": "QmNXLcLAcfo8yp59FxFQJNa7pDbUUw97QN9GwefWWFK4hk",
       "name": "go-libp2p-circuit",
-      "version": "2.0.14"
+      "version": "2.1.0"
     }
   ],
   "gxVersion": "0.11.0",
