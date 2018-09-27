@@ -23,12 +23,6 @@
       "hash": "QmbNepETomvmXfz1X5pHNFD2QuPqnqi47dTd94QJWSorQ3",
       "name": "go-libp2p-peer",
       "version": "2.3.8"
-    },
-    {
-      "author": "vyzo",
-      "hash": "QmS5X31wA86RSjQqCUHG2CLPoFNnBZ3UMy1ikfBHQ3G6LG",
-      "name": "go-libp2p-circuit",
-      "version": "2.2.2"
     }
   ],
   "gxVersion": "0.11.0",
