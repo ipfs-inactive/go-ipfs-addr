@@ -1,7 +1,7 @@
 go-ipfs-addr
 ==================
 
-**DEPRECATED**
+# **DEPRECATED**
 
 This package was introduced at a time when multiaddr didn't support "ipfs" (or libp2p) addresses. Please use [`SplitAddr`](https://godoc.org/github.com/libp2p/go-libp2p-core/peer#SplitAddr) and [`AddrInfoFromP2pAddrs`](https://godoc.org/github.com/libp2p/go-libp2p-core/peer#AddrInfoFromP2pAddr) from `github.com/libp2p/go-libp2p-peer`.
 
